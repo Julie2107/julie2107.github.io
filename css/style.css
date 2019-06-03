@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 960px;
+
+  font-family: "Monserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.container {
+  width: 960px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.section-header {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.projects {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.projects-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-item {
+  width: 300px;
+  border: 1px solid silver;
+  border-radius: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.project-item a {
+  opacity: 0.5;
+}
+
+.project-item a:hover {
+  opacity: 1;
+}
+
+.project-item img {
+  border-radius: 20%;
+}
+
+.project-item p {
+  padding: 0;
+  margin: 0;
+}
