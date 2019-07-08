@@ -1,10 +1,15 @@
-var linkOrderItem = document.querySelector('.popup-button');
+var linkOrderItem = document.querySelectorAll('.popup-button');
 var popupOrderItem = document.querySelector('.modal-box');
+var popupOpen = function(link) {
+  link.addEventListener('click', function(evt) {
+    evt.preventDefault();
+    popupOrderItem.classList.add('modal-box--show');
+  });
+}
 
-linkOrderItem.addEventListener('click', function (evt) {
-  evt.preventDefault();
-  popupOrderItem.classList.add('modal-box--show');
-});
+for (var i=0; i<linkOrderItem.length; i++) {
+  popupOpen(linkOrderItem[i]);
+}
 
 popupOrderItem.addEventListener('click', function (evt) {
   if (evt.target.tagName === 'SECTION') {

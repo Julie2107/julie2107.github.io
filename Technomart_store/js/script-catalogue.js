@@ -11,7 +11,6 @@ var popupOpen = function(link) {
 }
 
 for (var i=0; i<linkItemAdded.length; i++) {
-  console.log('opening popup');
   popupOpen(linkItemAdded[i]);
 }
 
