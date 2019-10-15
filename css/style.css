@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  min-width: 960px;
 
   font-family: "Monserrat", "Arial", sans-serif;
   font-weight: 400;
@@ -20,28 +19,21 @@ body {
 }
 
 .container {
-  width: 960px;
+  max-width: 960px;
+  min-width: 320px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-.section-header {
-  font-size: 30px;
-  font-weight: 700;
-  margin: 0;
-  margin-left: 30px;
-}
-
 .projects {
-  margin-bottom: 70px;
-  margin-top: 70px;
+  margin: 30px auto;
 }
 
 .projects-list {
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -49,15 +41,17 @@ body {
 }
 
 .project-item {
-  width: 300px;
+  max-width: 340px;
   border: 1px solid silver;
   border-radius: 50px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 20px;
   margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .project-item a {
@@ -75,4 +69,25 @@ body {
 .project-item p {
   padding: 0;
   margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media (min-width: 768px) {
+  .projects-list {
+    padding: 60px 0;
+  }
+
+  .project-item {
+    max-width: 420px;
+    width: 45%;
+    padding: 40px;
+    margin-bottom: 30px;
+  }
+
+  .project-item p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
 }
