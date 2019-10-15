@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9.002" height="18" viewBox="0 0 9.002 18">
+  <g id="icon-facebook.svg" transform="translate(-155 -3479)">
+    <g id="icon-facebook.svg-2" data-name="icon-facebook.svg" transform="translate(155 3479)">
+      <path id="Path_16" data-name="Path 16" d="M6.512,3.188H9V0H6.014C2.757.172,1.6,2.268,2.022,5.81H0V9.152H2.033V18H6.015V9.152H8.979V5.81H6.006C5.984,4.816,5.968,3.524,6.512,3.188Z"/>
+    </g>
+    <path id="Color_Overlay" data-name="Color Overlay" d="M157.033,3497v-8.847H155v-3.343h2.022c-.424-3.542.734-5.639,3.992-5.811H164v3.189h-2.489c-.545.336-.528,1.627-.506,2.622h2.973v3.343h-2.964V3497Z" fill="#fff"/>
+  </g>
+</svg>

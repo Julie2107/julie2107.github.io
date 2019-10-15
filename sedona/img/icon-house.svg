@@ -1,0 +1,15 @@
+<svg id="icon-house.svg" xmlns="http://www.w3.org/2000/svg" width="37.5" height="36" viewBox="0 0 37.5 36">
+  <g id="Group_1" data-name="Group 1">
+    <path id="Path_4" data-name="Path 4" d="M14.812,32.516h8.033V20.6H14.812V32.516Zm6.558-1.462H16.287V22.067H21.37Z"/>
+    <path id="Path_5" data-name="Path 5" d="M36.458,19.625,37.5,18.591l-4.974-4.932V.234H25.591V6.783L18.751,0,0,18.592l1.043,1.034,3.932-3.9v18.81H3V36H35.066V34.538h-2.54V15.728ZM27.066,1.7h3.986V12.2L27.066,8.246Zm3.985,32.842H6.45V14.267l12.3-12.192,12.3,12.192Z"/>
+    <path id="Path_6" data-name="Path 6" d="M14.937,13.54a3.891,3.891,0,1,0,3.891-3.856A3.874,3.874,0,0,0,14.937,13.54Zm3.891-2.473a2.473,2.473,0,1,1-2.5,2.473A2.485,2.485,0,0,1,18.828,11.067Z"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="1.506" height="1.959" transform="translate(8.489 20.605)"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="1.506" height="1.959" transform="translate(11.47 20.605)"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="1.506" height="1.959" transform="translate(8.489 23.59)"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="1.506" height="1.959" transform="translate(11.47 23.59)"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="1.506" height="1.959" transform="translate(24.523 20.605)"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="1.506" height="1.959" transform="translate(27.504 20.605)"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="1.506" height="1.959" transform="translate(24.523 23.59)"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="1.506" height="1.959" transform="translate(27.504 23.59)"/>
+  </g>
+</svg>

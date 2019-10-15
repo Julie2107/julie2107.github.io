@@ -57,6 +57,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 .project-item a {
