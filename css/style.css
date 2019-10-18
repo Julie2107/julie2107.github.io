@@ -7,7 +7,7 @@ body {
   font-size: 18px;
   line-height: 24px;
 
-  background-color: #ffffff;
+  background-color: #dedede;
 }
 
 .visually-hidden {
@@ -27,6 +27,52 @@ body {
   padding: 0 10px;
 }
 
+.about {
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 50px;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  padding-left: 35px;
+}
+
+.about__title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.contacts {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  list-style: none;
+  padding: 0;
+}
+
+
+.about a {
+  text-decoration: none;
+  color: #4090f6;
+}
+
+.contacts li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contacts span {
+  margin-left: 10px;
+}
+
+.skills {
+  list-style: circle;
+}
+
 .projects {
   margin: 30px auto;
 }
@@ -41,6 +87,7 @@ body {
 }
 
 .project-item {
+  background-color: white;
   max-width: 340px;
   border: 1px solid silver;
   border-radius: 50px;
@@ -71,9 +118,28 @@ body {
   margin: 0;
   font-size: 14px;
   line-height: 18px;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
+  .about {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .about div {
+    width: 45%;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
   .projects-list {
     padding: 60px 0;
   }
@@ -86,7 +152,7 @@ body {
   }
 
   .project-item p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 24px;
   }
 
