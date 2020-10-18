@@ -71,6 +71,7 @@ body {
 
 .skills {
   list-style: circle;
+  padding-left: 0;
 }
 
 .projects {
