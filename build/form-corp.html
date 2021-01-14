@@ -1,0 +1,93 @@
+
+<div class="popup popup--form-corporate">
+  <button class="button__close"></button>
+  <h2 class="popup__header">регистрация для юридических лиц</h2>
+  <p class="popup__note">Все поля являются обязательными для заполнения</p>
+  <form class="form form--corporate" action="">
+    <fieldset class="form__fieldset form__fieldset--data">
+      <legend class="visually-hidden">Ваши данные</legend>
+      
+      <label for="ownership"> <span class="visually-hidden">Форма собственности</span>
+        <input class="form__input-data" type="text" name="ownership" id="ownership" placeholder="Форма собственности">
+      </label>
+      <label for="org-name"> <span class="visually-hidden">Наименование организации</span>
+        <input class="form__input-data" type="text" name="org-name" id="org-name" placeholder="Наименование организации">
+      </label>
+      <label for="activity"> <span class="visually-hidden">Вид деятельности</span>
+        <input class="form__input-data" type="text" name="activity" id="activity" placeholder="Вид деятельности">
+      </label>
+      <label for="speciality"> <span class="visually-hidden">Специализация</span>
+        <input class="form__input-data" type="text" name="speciality" id="speciality" placeholder="Специализация">
+      </label>
+      <label for="name"> <span class="visually-hidden">ФИО</span>
+        <input class="form__input-data" type="text" name="name" id="name" placeholder="ФИО">
+      </label>
+      <label for="position"> <span class="visually-hidden">Должность</span>
+        <input class="form__input-data" type="text" name="position" id="position" placeholder="Должность">
+      </label>
+      <label for="tel"> <span class="visually-hidden">Телефон</span>
+        <input class="form__input-data" type="tel" name="tel" id="tel" placeholder="Телефон">
+      </label>
+      <label for="email"> <span class="visually-hidden">E-mail</span>
+        <input class="form__input-data" type="email" name="email" id="email" placeholder="E-mail">
+      </label>
+    </fieldset>
+    <div class="form__fieldsetwrap">
+      <fieldset class="form__fieldset form__fieldset--dirs">
+        <legend class="form__legend">Выберите направление</legend>
+        
+        <input class="form__input form__input--check" type="checkbox" name="welding" id="welding" value="welding">
+        <label class="form__label form__label--check" for="welding">
+          Сварка
+        </label>
+  
+        <input class="form__input form__input--check" type="checkbox" name="machining" id="machining" value="machining">
+        <label class="form__label form__label--check" for="machining">
+          Механическая обработка
+        </label>
+        
+        <input class="form__input form__input--check" type="checkbox" name="fitting" id="fitting" value="fitting">        
+        <label class="form__label form__label--check" for="fitting">
+          Сборка
+        </label>
+  
+        <input class="form__input form__input--check" type="checkbox" name="control" id="control" value="control">
+        <label class="form__label form__label--check" for="control">
+          Измерения и контроль
+        </label>
+  
+        <input class="form__input form__input--check" type="checkbox" name="packing" id="packing" value="packing">
+        <label class="form__label form__label--check" for="packing">
+          Упаковка
+        </label>
+  
+        <input class="form__input form__input--check" type="checkbox" name="automation" id="automation" value="automation">
+        <label class="form__label form__label--check" for="automation">
+          Автоматизация технологической подготовки производства
+        </label>
+  
+      </fieldset>
+      <fieldset class="form__fieldset form__fieldset--connect"> 
+        <legend class="form__legend">Предпочитаемый вид связи с представителями компании </legend>
+  
+        <input class="form__input form__input--radio" type="radio" name="connect" id="webinar" value="webinar" checked="">
+        <label class="form__label form__label--radio" for="webinar">
+          Вебинар
+        </label>
+      
+        <input class="form__input form__input--radio" type="radio" name="connect" id="phone" value="phone">
+        <label class="form__label form__label--radio" for="phone">
+          По телефону
+        </label>
+        <p class="form__note">Вебинары проводятся каждый последний четверг месяца с 14:00 до 16:00 </p>
+      </fieldset>
+    </div>
+    <input class="form__input form__input--check" type="checkbox" name="approval" id="approval">
+    <label class="form__label form__label--check form__approval" for="approval">Даю согласие ПАО ТКЗ «Красный котельщик» на хранение и обработку моих персональных данных, приведенных в форме, для проведения анализа анкеты техническими экспертами подразделений компании, а также использование указанных в анкете контактов для проведения телефонных интервью и переписки по электронной почте с целью решения организационных вопросов и ответов на запросы.</label>
+    <div class="form__captcha">
+
+    </div>
+    <button class="form__button" type="submit">Зарегистрироваться</button>
+  </form>
+  
+</div>
