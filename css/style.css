@@ -44,6 +44,12 @@ body {
   line-height: 24px;
 }
 
+.about__edu-list {
+  margin: 0;
+  list-style: circle;
+  padding-left: 20px;
+}
+
 .contacts {
   margin: 0;
   display: inline-block;
@@ -77,7 +83,7 @@ body {
   margin: 30px auto;
 }
 
-.projects-list {
+.projects__list {
   margin: 0;
   padding: 0 20px;
   list-style: none;
@@ -86,7 +92,11 @@ body {
   justify-content: space-around;
 }
 
-.project-item {
+.projects__title {
+  padding-left: 50px;
+}
+
+.projects__item {
   background-color: white;
   max-width: 340px;
   border: 1px solid silver;
@@ -95,27 +105,27 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.project-item a {
+.projects__item a {
   opacity: 0.5;
 }
 
-.project-item a:hover {
+.projects__item a:hover {
   opacity: 1;
 }
 
-.project-item img {
+.projects__item img {
   border-radius: 20%;
 }
 
-.project-item p {
+.projects__item p {
   padding: 0;
-  margin: 0;
+  margin: 5px 0;
   font-size: 14px;
   line-height: 18px;
   text-align: left;
@@ -140,18 +150,18 @@ body {
     line-height: 28px;
   }
 
-  .projects-list {
-    padding: 60px 0;
+  .projects__list {
+    padding: 30px 0;
   }
 
-  .project-item {
+  .projects__item {
     max-width: 420px;
     width: 45%;
     padding: 40px;
     margin-bottom: 30px;
   }
 
-  .project-item p {
+  .projects__item p {
     font-size: 14px;
     line-height: 24px;
   }
