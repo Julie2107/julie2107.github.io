@@ -95,11 +95,13 @@ body {
 
 .projects__title {
   padding-left: 50px;
+  padding-right: 50px;
 }
 
 .projects__item {
   background-color: white;
-  max-width: 340px;
+  max-width: 520px;
+  width: 100%;
   border: 1px solid silver;
   border-radius: 50px;
   text-align: center;
@@ -112,6 +114,18 @@ body {
           box-sizing: border-box;
 }
 
+.projects__item h3 {
+  margin-bottom: 10px;
+}
+
+.projects__item .projects__item-subtitle {
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+  margin: 0 0 10px;
+
+}
+
 .projects__item a {
   opacity: 0.5;
 }
@@ -122,6 +136,8 @@ body {
 
 .projects__item img {
   border-radius: 20%;
+  width: 100%;
+  max-width: 250px;
 }
 
 .projects__item p {
@@ -130,6 +146,22 @@ body {
   font-size: 14px;
   line-height: 18px;
   text-align: left;
+}
+
+.projects__item-desc {
+  padding: 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.projects__item-content {
+  padding: 10px 10px 10px 20px;
+}
+
+.projects__item-title {
+  vertical-align: top;
+  padding: 10px 0;
 }
 
 @media (min-width: 768px) {
